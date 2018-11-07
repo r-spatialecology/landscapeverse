@@ -1,6 +1,6 @@
 Package: landscapeverse
-Title: Easily Install and Load Select Packages
-Version: 0.0.1
+Title: Easily Install and Load Select Packages for Landscape Analysis 
+Version: 0.0.2
 Authors@R: 
     c(person(given = "Marco",
              family = "Sciaini",
@@ -21,6 +21,7 @@ Imports:
     dplyr (>= 0.7.4),
     landscapemetrics,
     landscapetools,
+    magrittr,
     NLMR,
     purrr (>= 0.2.4),
     rstudioapi (>= 0.7),
