@@ -6,9 +6,11 @@ status](https://travis-ci.org/r-spatialecology/landscapeverse.svg?branch=master)
 [![AppVeyor build
 status](https://ci.appveyor.com/api/projects/status/github/r-spatialecology/landscapeverse?branch=master&svg=true)](https://ci.appveyor.com/project/r-spatialecology/landscapeverse)
 [![lifecycle](https://img.shields.io/badge/lifecycle-maturing-blue.svg)](https://www.tidyverse.org/lifecycle/#maturing)
-\# landscapeverse
 
-The goal of landscapeverse is to …
+# landscapeverse
+
+The goal of **landscapeverse** is to make it easy to install and load
+core packages for landscape analysis in a single command.
 
 ## Installation
 
@@ -19,34 +21,22 @@ You can install the released version of landscapeverse from
 install.packages("landscapeverse")
 ```
 
-## Example
-
-This is a basic example which shows you how to solve a common problem:
+Or the development version from GitHub:
 
 ``` r
-## basic example code
+# install.packages("devtools")
+devtools::install_github("hadley/tidyverse")
 ```
 
-What is special about using `README.Rmd` instead of just `README.md`?
-You can include R chunks like so:
+## Usage
 
-``` r
-summary(cars)
-#>      speed           dist       
-#>  Min.   : 4.0   Min.   :  2.00  
-#>  1st Qu.:12.0   1st Qu.: 26.00  
-#>  Median :15.0   Median : 36.00  
-#>  Mean   :15.4   Mean   : 42.98  
-#>  3rd Qu.:19.0   3rd Qu.: 56.00  
-#>  Max.   :25.0   Max.   :120.00
-```
+`library(landscapeverse)` will load the core landscapeverse
+    packages:
 
-You’ll still need to render `README.Rmd` regularly, to keep `README.md`
-up-to-date.
-
-You can also embed plots, for example:
-
-<img src="man/figures/README-pressure-1.png" width="100%" />
-
-In that case, don’t forget to commit and push the resulting figure
-files, so they display on GitHub\!
+  - [landscapemetrics](https://r-spatialecology.github.io/landscapemetrics/),
+    for calculating landscape metrics for categorical landscape patterns
+    in a tidy workflow.
+  - [NLMR](https://ropensci.github.io/NLMR/), for simulating neutral
+    landscape models (NLM).
+  - [landscapetools](https://ropensci.github.io/landscapetools/),
+    provides utility functions to work with landscape data.

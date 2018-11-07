@@ -15,9 +15,10 @@ knitr::opts_chunk$set(
 [![Travis build status](https://travis-ci.org/r-spatialecology/landscapeverse.svg?branch=master)](https://travis-ci.org/r-spatialecology/landscapeverse)
 [![AppVeyor build status](https://ci.appveyor.com/api/projects/status/github/r-spatialecology/landscapeverse?branch=master&svg=true)](https://ci.appveyor.com/project/r-spatialecology/landscapeverse)
 [![lifecycle](https://img.shields.io/badge/lifecycle-maturing-blue.svg)](https://www.tidyverse.org/lifecycle/#maturing)
+
 # landscapeverse
 
-The goal of landscapeverse is to ...
+The goal of **landscapeverse** is to make it easy to install and load core packages for landscape analysis in a single command.
 
 ## Installation
 
@@ -27,26 +28,18 @@ You can install the released version of landscapeverse from [CRAN](https://CRAN.
 install.packages("landscapeverse")
 ```
 
-## Example
+Or the development version from GitHub:
 
-This is a basic example which shows you how to solve a common problem:
-
-```{r example}
-## basic example code
+```r
+# install.packages("devtools")
+devtools::install_github("hadley/tidyverse")
 ```
 
-What is special about using `README.Rmd` instead of just `README.md`? You can include R chunks like so:
+## Usage
 
-```{r cars}
-summary(cars)
-```
+`library(landscapeverse)` will load the core landscapeverse packages: 
 
-You'll still need to render `README.Rmd` regularly, to keep `README.md` up-to-date.
+* [landscapemetrics](https://r-spatialecology.github.io/landscapemetrics/), for calculating landscape metrics for categorical landscape patterns in a tidy workflow.
+* [NLMR](https://ropensci.github.io/NLMR/), for simulating neutral landscape models (NLM).
+* [landscapetools](https://ropensci.github.io/landscapetools/), provides utility functions to work with landscape data.
 
-You can also embed plots, for example:
-
-```{r pressure, echo = FALSE}
-plot(pressure)
-```
-
-In that case, don't forget to commit and push the resulting figure files, so they display on GitHub!
