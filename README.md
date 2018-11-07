@@ -5,7 +5,7 @@
 status](https://travis-ci.org/r-spatialecology/landscapeverse.svg?branch=master)](https://travis-ci.org/r-spatialecology/landscapeverse)
 [![AppVeyor build
 status](https://ci.appveyor.com/api/projects/status/github/r-spatialecology/landscapeverse?branch=master&svg=true)](https://ci.appveyor.com/project/r-spatialecology/landscapeverse)
-[![lifecycle](https://img.shields.io/badge/lifecycle-maturing-blue.svg)](https://www.tidyverse.org/lifecycle/#maturing)
+<!-- [![lifecycle](https://img.shields.io/badge/lifecycle-maturing-blue.svg)](https://www.tidyverse.org/lifecycle/#maturing) -->
 
 # landscapeverse
 
