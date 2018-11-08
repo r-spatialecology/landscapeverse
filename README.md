@@ -40,3 +40,12 @@ devtools::install_github("hadley/tidyverse")
     landscape models (NLM).
   - [landscapetools](https://ropensci.github.io/landscapetools/),
     provides utility functions to work with landscape data.
+
+## Packages
+
+As well as the core landscapeverse, installing this package also
+installs a selection of other packages that you’re likely to use
+frequently, but probably not in every analysis. This includes packages:
+
+  - [belg](https://r-spatialecology.github.io/belg/), for calculating
+    the Boltzmann entropy of a landscape gradient.

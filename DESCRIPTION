@@ -1,5 +1,5 @@
 Package: landscapeverse
-Title: Easily Install and Load Select Packages for Landscape Analysis 
+Title: Install and Load Packages for Landscape Analysis 
 Version: 0.0.2
 Authors@R: 
     c(person(given = "Marco",
@@ -15,12 +15,13 @@ Authors@R:
              email = "nowosad.jakub@gmail.com", 
              comment = c(ORCID = "0000-0002-1057-3721")))
 Description: The 'landscapeverse' is selection of packages
-    designed to be loaded in concert. The purpose of this package is to
+    designed for landscape analysis. The purpose of this package is to
     make it easy to install and subsequently load those packages.
-License: GPL-3
+License: GPL-3 | file LICENSE
 Depends: 
     R (>= 3.1)
-Imports: 
+Imports:
+    belg,
     cli (>= 1.0.0),
     crayon (>= 1.3.4),
     dplyr (>= 0.7.4),
