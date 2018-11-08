@@ -43,6 +43,10 @@ devtools::install_github("hadley/tidyverse")
 * [NLMR](https://ropensci.github.io/NLMR/), for simulating neutral landscape models (NLM).
 * [landscapetools](https://ropensci.github.io/landscapetools/), provides utility functions to work with landscape data.
 
+```{r}
+library(landscapeverse)
+```
+
 ## Packages
 
 As well as the core landscapeverse, installing this package also installs a selection of other packages that you’re likely to use frequently, but probably not in every analysis. 

@@ -41,6 +41,16 @@ devtools::install_github("hadley/tidyverse")
   - [landscapetools](https://ropensci.github.io/landscapetools/),
     provides utility functions to work with landscape data.
 
+<!-- end list -->
+
+``` r
+library(landscapeverse)
+#> ── Attaching packages ────────────────────────────────────────────────────────────────────────────── landscapeverse 0.0.2 ──
+#> ✔ NLMR             0.3.2     ✔ landscapemetrics 0.3  
+#> ✔ landscapetools   0.3.0
+#> 
+```
+
 ## Packages
 
 As well as the core landscapeverse, installing this package also
