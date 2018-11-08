@@ -7,7 +7,7 @@ status](https://travis-ci.org/r-spatialecology/landscapeverse.svg?branch=master)
 status](https://ci.appveyor.com/api/projects/status/github/r-spatialecology/landscapeverse?branch=master&svg=true)](https://ci.appveyor.com/project/r-spatialecology/landscapeverse)
 <!-- [![lifecycle](https://img.shields.io/badge/lifecycle-maturing-blue.svg)](https://www.tidyverse.org/lifecycle/#maturing) -->
 
-# landscapeverse
+# landscapeverse <img src="man/figures/landscapeverse.png" align="right" width="150" />
 
 The goal of **landscapeverse** is to make it easy to install and load
 core packages for landscape analysis in a single command.
